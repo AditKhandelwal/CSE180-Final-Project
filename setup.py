@@ -23,7 +23,8 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
-        ],
+	'console_scripts': [
+		'main_node = cse180_final_project.main_node:main',
+	],
     },
 )
